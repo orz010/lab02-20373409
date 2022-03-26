@@ -32,7 +32,7 @@ function clickLogin() {
 
 function initUserInfo() {
     // TODO: 修改页面显示错误的 bug，另外注意图片路径是否正确
-    var username = Kernal.getUserName();
+    var username = "User";
     var content = '<div id="user">\
                         <span id="user-img">\
                             <img src="img/user.jpg" />\
